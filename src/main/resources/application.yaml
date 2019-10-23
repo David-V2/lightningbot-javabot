@@ -1,0 +1,21 @@
+logging:
+  pattern:
+    console: "%d{dd-MM-yyyy HH:mm:ss.SSS} - %msg%n"
+
+server:
+  port: 8080
+
+#connection en mode identifié
+#lightningbot:
+#  url: "https://lightningbot.cf/api"
+#  mode: ""
+#  pseudo: ""
+#  token: "your token"
+
+
+#connection en mode test
+lightningbot:
+  url: "https://lightningbot.cf/api/test"
+  mode: "test"
+  pseudo: test
+  token: ""
